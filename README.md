@@ -1,7 +1,6 @@
 # PCE-Disasm
 
-The PCE-Disasm is a very basic Huc6280 disassembler made in Python.
-So far there are is only 89 decodable instructions; In the future I will add more since there are still few unknown opcodes
+The PCE-Disasm is a very basic Huc6280 disassembler made in Python. There are a total of 89 instructions which is the full set, according to http://www.archaicpixels.com/HuC6280_Instruction_Set
 
 The options for decoding .pce files are as:
 
