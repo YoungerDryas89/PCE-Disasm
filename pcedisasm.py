@@ -1981,8 +1981,8 @@ def decode(filename): # Our decode function
 # --unknownops/-u [ PCE File ] [ OUTPUT ] - Output only unknown opcodes
 # --help/-h - print out commands
 if __name__ == "__main__":
-    # Slice off the first element which is the program name and lowercase all the options
-    args = map( lambda x : x.lower(), sys.argv[1:len(sys.argv)])
+    # Slice off the first element which is the program name
+    args = sys.argv[1:len(sys.argv)]
     print args # Print the arguments
     if len(args) == 3: # If there are 3 arguments continue
         print "..." # Print this to let the user know it's working
